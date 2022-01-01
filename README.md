@@ -14,6 +14,4 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
   
   
 #### step 2)
-    
-    ![](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG20220101132744.jpg)
-    )
+helo
