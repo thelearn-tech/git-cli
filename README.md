@@ -3,19 +3,11 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
 
 ## Contains  
 
-#  step 1)
 
- ## Creating a Repository.
-
-
-  First create a **Public** or **Private** **Repository** without adding **.gitignore** file, you can add **README.md** and **LICENCE** .
-  
-  ![repo img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_131716.jpg)
   
   
   
-  
-# step 2)
+# Step 1)
 
   ## Creating a Personal token
 
@@ -29,7 +21,17 @@ and create a **token**.
 I just gave **repo** permission but you can change according to your needs.
 
 
-# step 3)
+#  Step 2)
+
+ ## Creating a Repository.
+
+
+  First create a **Public** or **Private** **Repository** without adding **.gitignore** file, you can add **README.md** and **LICENCE** .
+  
+  ![repo img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_131716.jpg)
+  
+  
+# Step 3)
 
   ## Installing ***git*** and **gh**
   
@@ -42,9 +44,9 @@ I just gave **repo** permission but you can change according to your needs.
   <br>
   `apt install git gh -y`
 
-# step 4) 
+# Step 4) 
 
-  ## Authenticating to github with gh
+  ## git and verify install of git and gh
 
 I am using **Termux**. u can use **linux, mac or windows**.
 
@@ -60,6 +62,25 @@ to verify installation of **git** and **gh**.
 
 ![gh and git](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_161325.jpg)
 
+get your email from [here](https://github.com/settings/emails) or **Settings** > **Emails**
+
+If you have private email then your email will look some thing like this ![email](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_163547.jpg)
+
+
 now type   `git config --global user.name "youUserName"`
 
-change ***youUserName*** to your github user name like `git config --global user.name "thelearn-tech"`
+and type `git config --global user.email "yourEmail"`
+
+like this 
+![git auth](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_162613.jpg)
+
+change ***youUserName*** to your github user name like `git config --global user.name "thelearn-tech"` and do same for your email. 
+
+
+# Step 5)
+
+  ## Authentication to github with gh
+  
+type  `gh login --with-token "yourToken"`
+
+replace **yourToken** with the token you created in [Step 1](#)
