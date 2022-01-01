@@ -46,7 +46,7 @@ I just gave **repo** permission but you can change according to your needs.
 
 # Step 4) 
 
-  ## git and verify install of git and gh
+  ## git setup and verify install of git and gh
 
 I am using **Termux**. u can use **linux, mac or windows**.
 
@@ -67,6 +67,8 @@ get your email from [here](https://github.com/settings/emails) or **Settings** >
 If you have private email then your email will look some thing like this ![email](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_163547.jpg)
 
 
+now setting up git.
+
 now type   `git config --global user.name "youUserName"`
 
 and type `git config --global user.email "yourEmail"`
@@ -85,3 +87,6 @@ type  `gh login --with-token "yourToken"`
 
 replace **yourToken** with the token you created in [Step 1](#step-1)
 
+
+
+## Now **git** and **gh** is setted up.
