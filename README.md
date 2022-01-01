@@ -3,7 +3,7 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
 
 ## Steps  
 
-#### 1)
+####  step 1)
 
 
   First create a **Public** or **Private** **Repository** without adding **.gitignore** file, you can add **README.md** and **LICENCE** .
@@ -13,7 +13,7 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
   
   
   
-#### 2)
+#### step 2)
     <br>
     create a **Personal** **access** **tokens** from [here](https://github.com/settings/tokens) or go to **setting** > **developers settings** > **Personal** **access** **tokens**.
     <br>
