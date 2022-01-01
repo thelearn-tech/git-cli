@@ -11,7 +11,7 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
   ![repo img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_131716.jpg)
   
 #### 2)
-
+    <br>
     create a **Personal** **access** **tokens** from [here](https://github.com/settings/tokens) or go to **setting** > **developers settings** > **Personal** **access** **tokens**.
     <br>
     ![pa token](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_132744.jpg)
