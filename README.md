@@ -91,3 +91,16 @@ replace **yourToken** with the token you created in [Step 1](#step-1)
 
 ## Now **git** and **gh** is setted up.
 
+# Step 6) 
+
+clone the Repository 
+`git clone https://github.com/yourUserName/yourRepo`
+
+and `cd` in to it.
+<br>
+
+![clone repo](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_202020.jpg)
+
+# Step 7)
+
+ # incomplet
