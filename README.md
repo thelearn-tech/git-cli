@@ -90,3 +90,4 @@ replace **yourToken** with the token you created in [Step 1](#step-1)
 
 
 ## Now **git** and **gh** is setted up.
+
