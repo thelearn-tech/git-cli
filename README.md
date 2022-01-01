@@ -15,5 +15,5 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
   
 #### step 2)
     
-    ![pa token](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_132744.jpg)
-    
+    ![](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG20220101132744.jpg)
+    )
