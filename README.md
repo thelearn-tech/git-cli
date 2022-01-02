@@ -103,4 +103,22 @@ and `cd` in to it.
 
 # Step 7)
 
- # incomplet
+ # pulling and commiting 
+ 
+ `cd yourRepo`
+ 
+ `git pull`
+ 
+ now add file or change existing one as a update.
+ 
+ I added a file called `example.txt`
+ 
+ now if you do `git status` then you will see `untracked file`
+ <br>
+ adding the file `git add example.txt` 
+ <br> 
+ here `example.txt` is file name to be added . 
+ <br>
+ To add all files use `git add .`
+ <br>
+ `.` means all files in that directory.
