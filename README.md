@@ -1,7 +1,20 @@
 # git-cli
 A tutorial on how to maintain repo with local repo aka how to push files with cli.
 
-## Contains  
+# Contains 
+[**Creating a Personal token**](#step-1)
+
+[**Creating a Repository**](#step-2)
+
+[**Installing `git` and `gh`**](#step-3)
+
+[**Git setup and verify install of `git` & `gh`**](#step-4)
+
+[**Authentication to github with `gh`**](#step-5)
+
+[**Cloning the Repository**](#step-6)
+
+[**pulling and commiting and pushing**](#step-7)
 
 
   
@@ -93,7 +106,8 @@ replace **yourToken** with the token you created in [Step 1](#step-1)
 
 # Step 6) 
 
-clone the Repository 
+## cloning the Repository 
+
 `git clone https://github.com/yourUserName/yourRepo`
 
 and `cd` in to it.
@@ -107,29 +121,50 @@ and `cd` in to it.
  
 
  <br>
+
 ![setup img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220102_105927.jpg)
+ 
+<br>
  <br>
- <br>
+
  `git init`
- <br>
+ 
+<br>
+
 then `git pull`
+ 
+<br>
  <br>
- <br>
+
  do `git pull` before add or changing any files
- <br>
+ 
+<br>
+
  now add file or change existing one as a update.
- <br>
+ 
+<br>
+
  I added a file called `example.txt`
- <br>
+ 
+<br>
+
  now if you do `git status` then you will see `untracked file`
- <br>
+ 
+<br>
+
  adding the file `git add example.txt` 
- <br> 
+ 
+<br>
+
  here `example.txt` is file name to be added . 
+
  <br>
  <br>
- To add all files use `git add .`
- <br>
+ 
+To add all files use `git add .`
+ 
+<br>
+
  `.` means all files in that directory.
  
  <br>
@@ -143,4 +178,8 @@ then `git pull`
 <br>
 
  here `-m` in `git commit -m` stands for **comment** like `git commit -m "comment"`
- simple do `git push`
+ 
+
+simple do `git push`
+
+And done.
