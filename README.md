@@ -131,3 +131,10 @@ and `cd` in to it.
  <br>
  
  if you do `git status` now then it will show **new file:**
+ 
+<br>
+now commit with `git commit -m "pushing file in cli"`
+
+<br>
+here `-m` in `git commit -m` stands for **comment** like `git commit -m "comment"`
+simple do `git push`
