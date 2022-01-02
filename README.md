@@ -68,7 +68,7 @@ If you have private email then your email will look some thing like this ![email
 
 
 now setting up git.
-
+<br>
 now type   `git config --global user.name "youUserName"`
 
 and type `git config --global user.email "yourEmail"`
@@ -107,10 +107,10 @@ and `cd` in to it.
  
  `cd yourRepo`
  <br>
- 
+ ![setup img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220102_100130.jpg)
  if you have complete empty repo then do `git init`
 <br>
- `git pull`
+then  `git pull`
 <br>
  do `git pull` before add or changing any files
 <br>
