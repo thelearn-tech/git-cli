@@ -97,7 +97,7 @@ clone the Repository
 `git clone https://github.com/yourUserName/yourRepo`
 
 and `cd` in to it.
-<br>
+ <br>
 
 ![clone repo](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_202020.jpg)
 
@@ -105,17 +105,20 @@ and `cd` in to it.
 
  # pulling and commiting and pushing
  
- `cd yourRepo`
+
  <br>
- ![setup img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220102_100130.jpg)
- if you have complete empty repo then do `git init`
-<br>
-then  `git pull`
-<br>
+ ![setup img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220102_105927.jpg)
+ <br>
+ <br>
+ `git init`
+ <br>
+then `git pull`
+ <br>
+ <br>
  do `git pull` before add or changing any files
-<br>
+ <br>
  now add file or change existing one as a update.
-<br>
+ <br>
  I added a file called `example.txt`
  <br>
  now if you do `git status` then you will see `untracked file`
@@ -123,6 +126,7 @@ then  `git pull`
  adding the file `git add example.txt` 
  <br> 
  here `example.txt` is file name to be added . 
+ <br>
  <br>
  To add all files use `git add .`
  <br>
@@ -133,8 +137,10 @@ then  `git pull`
  if you do `git status` now then it will show **new file:**
  
 <br>
-now commit with `git commit -m "pushing file in cli"`
+
+ now commit with `git commit -m "pushing file in cli"`
 
 <br>
-here `-m` in `git commit -m` stands for **comment** like `git commit -m "comment"`
-simple do `git push`
+
+ here `-m` in `git commit -m` stands for **comment** like `git commit -m "comment"`
+ simple do `git push`
