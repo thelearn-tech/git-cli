@@ -26,7 +26,7 @@ I just gave **repo** permission but you can change according to your needs.
  ## Creating a Repository.
 
 
-  First create a **Public** or **Private** **Repository** without adding **.gitignore** file, you can add **README.md** and **LICENCE** .
+  First create a **Public** or **Private** **Repository** with or without **.gitignore**  **README.md** and **LICENCE** .
   
   ![repo img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_131716.jpg)
   
@@ -103,16 +103,21 @@ and `cd` in to it.
 
 # Step 7)
 
- # pulling and commiting 
+ # pulling and commiting and pushing
  
  `cd yourRepo`
+ <br>
  
+ if you have complete empty repo then do `git init`
+<br>
  `git pull`
- 
+<br>
+ do `git pull` before add or changing any files
+<br>
  now add file or change existing one as a update.
- 
+<br>
  I added a file called `example.txt`
- 
+ <br>
  now if you do `git status` then you will see `untracked file`
  <br>
  adding the file `git add example.txt` 
@@ -122,3 +127,7 @@ and `cd` in to it.
  To add all files use `git add .`
  <br>
  `.` means all files in that directory.
+ 
+ <br>
+ 
+ if you do `git status` now then it will show **new file:**
