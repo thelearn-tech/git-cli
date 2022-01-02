@@ -107,7 +107,7 @@ and `cd` in to it.
  
 
  <br>
- ![setup img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220102_105927.jpg)
+![setup img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220102_105927.jpg)
  <br>
  <br>
  `git init`
