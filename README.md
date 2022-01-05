@@ -96,7 +96,7 @@ change ***youUserName*** to your github user name like `git config --global user
 
   ## Authentication to github with gh
   
-type  `gh login --with-token "yourToken"`
+type  `gh auth login --with-token "yourToken"`
 
 replace **yourToken** with the token you created in [Step 1](#step-1)
 
