@@ -27,11 +27,11 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
 create a **Public Access Token** from
 [here](https://github.com/settings/tokens) or go to **Settings** > **Developer** **Settings** > **Personal** **Access** **Token**
 
-and create a **token**.
+and create a **token** with a minimum of the following permissions.
 
 ![pa Token](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_132744.jpg)
+![read org](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220105_173006.jpg)
 
-I just gave **repo** permission but you can change according to your needs.
 
 
 #  Step 2)
