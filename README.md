@@ -136,7 +136,7 @@ then `git pull`
 <br>
  <br>
 
- do `git pull` before add or changing any files
+ `git pull` before adding or changing any files. It's very important!!
  
 <br>
 
