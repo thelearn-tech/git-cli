@@ -48,8 +48,9 @@ and create a **token** with a minimum of full **repo** and **read:org** permissi
 
   ## Installing ***git*** and **gh**
   
-  Installation guide [here](https://github.com/git-guides/install-git#:~:text=To%20install%20Git%2C%20run%20the,installation%20by%20typing%3A%20git%20version%20.)
+  Installation guide for git [here](https://github.com/git-guides/install-git#:~:text=To%20install%20Git%2C%20run%20the,installation%20by%20typing%3A%20git%20version%20.)
 
+  Installation guide for gh [here](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
   
   Installation on termux
   <br>
