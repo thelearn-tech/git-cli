@@ -4,17 +4,19 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
 # Contains 
 [**Creating a Personal token**](#step-1)
 
-[**Creating a Repository**](#step-2)
+[**Adding SSH key**](#step-2)
 
-[**Installing `git` and `gh`**](#step-3)
+[**Creating a Repository**](#step-3)
 
-[**Git setup and verify install of `git` & `gh`**](#step-4)
+[**Installing `git` and `gh`**](#step-4)
 
-[**Authentication to github with `gh`**](#step-5)
+[**Git setup and verify install of `git` & `gh`**](#step-5)
 
-[**Cloning the Repository**](#step-6)
+[**Authentication to github with `gh`**](#step-6)
 
-[**pulling and commiting and pushing**](#step-7)
+[**Cloning the Repository**](#step-7)
+
+[**pulling and commiting and pushing**](#step-8)
 
 
   
@@ -35,6 +37,30 @@ and create a **token** with a minimum of full **repo** and **read:org** permissi
 
 
 #  Step 2)
+  
+## Add ssh key to your GitHub
+
+First create a ssh key in linux 
+Like
+ ![ssh Keygen](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220408_081622.jpg)
+ [Make sure to use your GitHub  public email]
+
+ And copy the key 
+From ~/.ssh/id_rsa.pub
+
+![ssh key](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220408_082306.jpg)
+
+
+Go to settings/ssh 
+
+Or https://github.com/settings/ssh/new
+
+
+![ssh key](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220408_080824.jpg)
+
+And ssh key.
+
+# Step 3)
 
  ## Creating a Repository.
 
@@ -44,7 +70,7 @@ and create a **token** with a minimum of full **repo** and **read:org** permissi
   ![repo img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_131716.jpg)
   
   
-# Step 3)
+# Step 4)
 
   ## Installing ***git*** and **gh**
   
@@ -58,7 +84,7 @@ and create a **token** with a minimum of full **repo** and **read:org** permissi
   <br>
   `apt install git gh -y`
 
-# Step 4) 
+# Step 5) 
 
   ## git setup and verify install of git and gh
 
@@ -93,7 +119,7 @@ like this
 change ***youUserName*** to your github user name like `git config --global user.name "thelearn-tech"` and do same for your email. 
 
 
-# Step 5)
+# Step 6)
 
   ## Authentication to github with gh
   
@@ -105,7 +131,7 @@ replace **yourToken** with the token you created in [Step 1](#step-1)
 
 ## Now **git** and **gh** is setted up.
 
-# Step 6) 
+# Step 7) 
 
 ## cloning the Repository 
 
@@ -116,7 +142,7 @@ and `cd` in to it.
 
 ![clone repo](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_202020.jpg)
 
-# Step 7)
+# Step 8)
 
  # pulling and commiting and pushing
  
