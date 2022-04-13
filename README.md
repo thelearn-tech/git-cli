@@ -1,5 +1,5 @@
 # git-cli
-A tutorial on how to maintain repo with local repo aka how to push files with cli.
+A tutorial on how to maintain repo with local repo aka cli pushing.
 
 # Contains 
 
@@ -16,7 +16,7 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
  * Clonning
      * [**Clone repository with `SSH`**](#step-6) 
  * Managing repo
-     * [**Pulling , edditing , add files ,pusing**](#step-7)
+     * [**Pulling , edditing files, add files/folder ,pusing**](#step-7)
   
  
 
