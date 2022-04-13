@@ -86,10 +86,13 @@ change ***youUserName*** to your github user name like `git config --global user
   ## Authentication to github with gh
   
 type  `gh auth login"`
-   >> `github.com`
-   >> `SSH'
-   >> ~/.ssh/id_rsa.pub
-   >> paste authentication token
+   > `github.com`
+   
+   > `SSH`
+   
+   > `~/.ssh/id_rsa.pub`
+   
+   > `paste authentication token`
   
 ![img collage](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220413_111513.jpg)
 
