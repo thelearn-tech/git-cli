@@ -2,21 +2,19 @@
 A tutorial on how to maintain repo with local repo aka how to push files with cli.
 
 # Contains 
-[**Creating a Personal token**](#step-1)
 
-[**Adding SSH key**](#step-2)
+ * Authentication
+     * [**Create a personal token**](#step-1)
+     
+     * [**Installing `git` and `gh`**](#step-2)
+ 
+     * [**Git setup**](#step-3)
 
-[**Creating a Repository**](#step-3)
-
-[**Installing `git` and `gh`**](#step-4)
-
-[**Git setup and verify install of `git` & `gh`**](#step-5)
-
-[**Authentication to github with `gh`**](#step-6)
-
-[**Cloning the Repository**](#step-7)
-
-[**pulling and commiting and pushing**](#step-8)
+     * [**Authentication to github with `gh`**](#step-4)
+ * Clonning
+     * [**Clone repository with `SSH`**](#step-5) 
+  
+ 
 
 
   
