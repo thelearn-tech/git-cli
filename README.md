@@ -6,13 +6,15 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
  * Authentication
      * [**Create a personal token**](#step-1)
      
-     * [**Installing `git` and `gh`**](#step-2)
+     * [**Creating `SSH`key**](#step-2) 
+     
+     * [**Installing `git` and `gh`**](#step-3)
  
-     * [**Git setup**](#step-3)
+     * [**Git setup**](#step-4)
 
-     * [**Authentication to github with `gh`**](#step-4)
+     * [**Authentication to github with `gh`**](#step-5)
  * Clonning
-     * [**Clone repository with `SSH`**](#step-5) 
+     * [**Clone repository with `SSH`**](#step-6) 
   
  
 
@@ -27,48 +29,27 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
 create a **Public Access Token** from
 [here](https://github.com/settings/tokens) or go to **Settings** > **Developer** **Settings** > **Personal** **Access** **Token**
 
-and create a **token** with a minimum of full **repo** and **read:org** permission.
+and create a **token** with a minimum of full **repo** and full **admin:org** and full **admin:public_key** permission.
 
-![pa Token](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_132744.jpg)
-![read org](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220105_173006.jpg)
+![pa Token](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220413_102222.jpg)
+![read org](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220413_102249.jpg)
 
 
 
 #  Step 2)
   
-## Add ssh key to your GitHub
+## Creating a `SSH` key
 
-First create a ssh key in linux 
-Like
  ![ssh Keygen](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220408_081622.jpg)
  [Make sure to use your GitHub  public email]
 
- And copy the key 
-From ~/.ssh/id_rsa.pub
-
-![ssh key](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220408_082306.jpg)
+`ssh-keygen -t rsa -b 4096 -C "your public email"`
 
 
-Go to settings/ssh 
-
-Or https://github.com/settings/ssh/new
 
 
-![ssh key](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220408_080824.jpg)
-
-And ssh key.
 
 # Step 3)
-
- ## Creating a Repository.
-
-
-  First create a **Public** or **Private** **Repository** with or without **.gitignore**  **README.md** and **LICENCE** .
-  
-  ![repo img](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_131716.jpg)
-  
-  
-# Step 4)
 
   ## Installing ***git*** and **gh**
   
@@ -82,13 +63,9 @@ And ssh key.
   <br>
   `apt install git gh -y`
 
-# Step 5) 
 
-  ## git setup and verify install of git and gh
+  **verify install of git and gh**
 
-I am using **Termux**. u can use **linux, mac or windows**.
-
-open **Terminal** or **CMD**
 
 type   `git --version` 
 <br> 
@@ -97,15 +74,16 @@ type    `gh --version`
 
 to verify installation of **git** and **gh**.
 
-
 ![gh and git](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_161325.jpg)
+
+# Step 4)
+  ## GIT setup
 
 get your email from [here](https://github.com/settings/emails) or **Settings** > **Emails**
 
 If you have private email then your email will look some thing like this ![email](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_163547.jpg)
 
 
-now setting up git.
 <br>
 now type   `git config --global user.name "youUserName"`
 
