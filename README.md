@@ -15,6 +15,8 @@ A tutorial on how to maintain repo with local repo aka how to push files with cl
      * [**Authentication to github with `gh`**](#step-5)
  * Clonning
      * [**Clone repository with `SSH`**](#step-6) 
+ * Managing repo
+     * [**Pulling , edditing , add files ,pusing**](#step-7)
   
  
 
@@ -46,9 +48,6 @@ and create a **token** with a minimum of full **repo** and full **admin:org** an
 `ssh-keygen -t rsa -b 4096 -C "your public email"`
 
 
-
-
-
 # Step 3)
 
   ## Installing ***git*** and **gh**
@@ -62,19 +61,6 @@ and create a **token** with a minimum of full **repo** and full **admin:org** an
   `pkg install git gh -y` or 
   <br>
   `apt install git gh -y`
-
-
-  **verify install of git and gh**
-
-
-type   `git --version` 
-<br> 
-type    `gh --version`
-<br>
-
-to verify installation of **git** and **gh**.
-
-![gh and git](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_161325.jpg)
 
 # Step 4)
   ## GIT setup
@@ -95,30 +81,36 @@ like this
 change ***youUserName*** to your github user name like `git config --global user.name "thelearn-tech"` and do same for your email. 
 
 
-# Step 6)
+# Step 5)
 
   ## Authentication to github with gh
   
-type  `gh auth login --with-token "yourToken"`
+type  `gh auth login"`
+   >> `github.com`
+   >> `SSH'
+   >> ~/.ssh/id_rsa.pub
+   >> paste authentication token
+  
+![img collage](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220413_111513.jpg)
 
-replace **yourToken** with the token you created in [Step 1](#step-1)
 
 
 
-## Now **git** and **gh** is setted up.
+# Step 6)
 
-# Step 7) 
+## clonning the Repository 
 
-## cloning the Repository 
+`git clone git@github.com:yourUserName/yourRepo.git` [this SSH clonning]
 
-`git clone https://github.com/yourUserName/yourRepo`
+if you have cloned repository with https [`git clone https://github.com/yourUserName/yourRepo`]
 
-and `cd` in to it.
- <br>
+then before `git push` you have to specify the remote url with `git remote set-url origin git@github.com:username/repo.git`,
+here `username/repo.git`is the repo u have cloned
 
-![clone repo](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220101_202020.jpg)
 
-# Step 8)
+
+
+# Step 7)
 
  # pulling and commiting and pushing
  
