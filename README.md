@@ -43,9 +43,9 @@ and create a **token** with a minimum of full **repo** and full **admin:org** an
 ## Creating a `SSH` key
 
  ![ssh Keygen](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220408_081622.jpg)
- [Make sure to use your GitHub  public email]
+ [I am using my public mail for this demo, you can use any thing else]
 
-`ssh-keygen -t rsa -b 4096 -C "your public email"`
+`ssh-keygen -t rsa -b 4096 -C "your pass phrase"`
 
 
 # Step 3)
