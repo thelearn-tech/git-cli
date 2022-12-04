@@ -31,7 +31,7 @@ A tutorial on how to maintain repo with local repo aka cli pushing.
 create a **Public Access Token** from
 [here](https://github.com/settings/tokens) or go to **Settings** > **Developer** **Settings** > **Personal** **Access** **Token**
 
-and create a **token** with a minimum of full **repo** and full **admin:org** and full **admin:public_key** permission.
+and create a **token** with a minimum of full **`repo`** and full **`admin:org`** and full **`admin:public_key`** permission.
 
 ![pa Token](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220413_102222.jpg)
 ![read org](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20220413_102249.jpg)
