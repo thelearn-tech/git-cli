@@ -103,7 +103,7 @@ type  `gh auth login"`
 
 ## clonning the Repository 
 
-`git clone git@github.com:yourUserName/yourRepo.git` [this SSH clonning]
+`git clone git@github.com:yourUserName/yourRepo.git` [this is SSH clonning]
 
 if you have cloned repository with https [`git clone https://github.com/yourUserName/yourRepo`]
 
